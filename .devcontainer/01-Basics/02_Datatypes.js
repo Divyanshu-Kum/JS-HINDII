@@ -10,6 +10,7 @@ let isLOGGedIn = false
 let state; //this is the example of undefined
 let state= null//prestantation ofempty value 
 
+
 //some of data type present in javascript
 //number => 2 to power 53
 // bigint +> used for big numsber
