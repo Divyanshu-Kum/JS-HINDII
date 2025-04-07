@@ -32,3 +32,27 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId)
+
+
+
+// ***************************
+
+// Stack(Primitive(iske andar copy number hi milega)), Heap(Non-Premitive(iske andar koi value rakhne pr value hi milta hai))
+
+let myYoutubename = "divyanshu.com"
+
+let anothername = myYoutubename
+
+console.log(anothername)
+
+let userOne = {
+    email: "user@google.com"
+    upi: "user@abs"
+}
+
+let userTwo = userOne
+
+userTwo.email = "divyanshu.email"
+
+console.log(userOne,email);
+console.log(userTwo,email);
